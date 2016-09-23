@@ -29,15 +29,13 @@ public class LinearSearch {
 		for (i = 0; i < size; i++) {
 			array[i] = rand.nextInt(1000);
 			if (array[i] == search) {
-				System.out.println("FOUND: " + search + 
-					" is at " + "array["+i+"]");
+				System.out.println("FOUND: " + search + " is at " + "array["+i+"]");
 				break;
 			} 			
 		}
 
 		if (i == size) {
-			System.out.println("NOT FOUND: " + search + 
-				" is not in the array.");
+			System.out.println("NOT FOUND: " + search + " is not in the array.");
 		}
 
 	}
